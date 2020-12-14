@@ -162,6 +162,7 @@ header ul li a {
   height: 100%;
   background-color: rgba(0, 255, 55, 0.349);
   clip-path: circle(600px at right 800px);
+  /*shape | radius | x-axis position | y-axis position */
   transition: 0.5s all ease;
 }
 .toggle {
