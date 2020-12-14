@@ -165,6 +165,7 @@ header ul li a {
   transition: 0.5s all ease;
 }
 .toggle {
+  display: none;
   position: fixed;
   right: 20px;
   z-index: 20;
@@ -232,5 +233,8 @@ header ul li a {
     font-weight: bold;
 
     margin: 10px;
+  }
+  .toggle {
+    display: block;
   }
 }
