@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McDonald's</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="main">
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="/images/logo.png" class="logo" alt=""></a>
+            <div class="toggle" onclick="toggle()"><i class="fa fa-bars" aria-hidden="true"></i></div>
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Welocome to the <br> <span>McDonald's</span></h2>
+                <p>Back in 1954, a man named Ray Kroc discovered a small burger restaurant in California, and wrote the
+                    first page of our history. From humble beginnings as a small restaurant, we're proud to have become
+                    one of the world's leading food service brands with more than 36,000 restaurants in more than 100
+                    countries.
+
+                    .</p>
+                <a target="__blank" href="https://www.mcdonalds.com/us/en-us.html">Learn more</a>
+
+            </div>
+            <div class="imgbox">
+                <img src="/images/burger.png" class="burger" alt="">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="/images/burger.png" alt=""
+                    onclick='slider("/images/burger.png"); changecolor(" rgba(86, 255, 114, 0.548)")'></li>
+            <li><img src="/images/coffee.png" alt=""
+                    onclick='slider("/images/coffee.png");changecolor(" rgba(165, 42, 42, 0.548)")'>
+            </li>
+            <li><img src="/images/fries.png" alt=""
+                    onclick='slider("/images/fries.png");changecolor("rgba(255, 232, 29, 0.548)")'></li>
+            <li><img src="/images/chicken.png" alt="" onclick='slider("/images/chicken.png");changecolor("yellow")'>
+            </li>
+        </ul>
+        <ul class="icons">
+            <li><a href="#"> <i class="fab fa-facebook-f"></i> </a></li>
+            <li><a href="#"> <i class="fab fa-instagram" aria-hidden="true"></i> </a></li>
+            <li><a href="#"> <i class="fab fa-linkedin" aria-hidden="true"></i> </a></li>
+        </ul>
+    </section>
+
+    <script src="/app.js">
+
+    </script>
+</body>
+
+</html>
